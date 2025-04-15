@@ -37,5 +37,9 @@ customtkinter
 torch  
 whisper  
 ffmpeg-python
- ``` 
+ ```
+
+## ライセンス
+このプロジェクトは [MIT License](./LICENSE) のもとで公開されています。
+
 
