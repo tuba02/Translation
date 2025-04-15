@@ -36,5 +36,6 @@ python-dotenv
 customtkinter  
 torch  
 whisper  
-ffmpeg-python ```   
+ffmpeg-python
+ ``` 
 
