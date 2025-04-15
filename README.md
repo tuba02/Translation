@@ -10,12 +10,14 @@
 ## インストール方法
 
 ### 1.リポジトリをクローン
-``` git clone https://github.com/tuba02/Translation.git ```  
- ``` cd Translation ``` 
+``` git clone https://github.com/tuba02/Translation.git 
+cd Translation 
+``` 
 
 ### 2.仮想環境の作成（任意）
- ``` python -m venv venv  ```    
- ``` venv\Scripts\activate ```   
+ ``` python -m venv venv     
+ venv\Scripts\activate
+```   
 
 ### 3.依存パッケージのインストール
  ``` pip install -r requirements.txt ``` 
