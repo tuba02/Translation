@@ -10,31 +10,31 @@
 ## インストール方法
 
 ### 1.リポジトリをクローン
-``` git clone https://github.com/tuba02/Translation.git ```
-cd Translation
+``` git clone https://github.com/tuba02/Translation.git ```  
+ ``` cd Translation ``` 
 
 ### 2.仮想環境の作成（任意）
-python -m venv venv  
-venv\Scripts\activate
+ ``` python -m venv venv  ```    
+ ``` venv\Scripts\activate ```   
 
 ### 3.依存パッケージのインストール
-pip install -r requirements.txt
+ ``` pip install -r requirements.txt ``` 
 
 ## APIキーの設定
 OpenRouter APIを使用するため、ルートディレクトリに.envファイルを作成し、以下のように記載してください  
-OPENROUTER_API_KEY=your_openrouter_api_key
+ ``` OPENROUTER_API_KEY=your_openrouter_api_key ``` 
 
 ## アプリの実行
-python app.py
+ ``` python app.py ``` 
 
 ## 必要なライブラリ
 以下の内容をrequirements.txtに記載しています  
-numpy  
+ ``` numpy  
 sounddevice  
 openai  
 python-dotenv  
 customtkinter  
 torch  
 whisper  
-ffmpeg-python  
+ffmpeg-python ```   
 
